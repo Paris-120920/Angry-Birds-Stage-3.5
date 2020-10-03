@@ -68,7 +68,7 @@ function draw(){
 }
 
 function mouseDragged() {
-    Matter.Body.setPosition(bird.body, {x:200, y:100});
+    Matter.Body.setPosition(bird.body, {x:mouseX, y:mouseY});
 }
 
 function mouseRealeased() {
